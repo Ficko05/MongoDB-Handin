@@ -1,5 +1,7 @@
 ## Set up Sharding using Docker Containers
 
+![image](https://user-images.githubusercontent.com/34158635/159247081-83014268-2558-4038-a820-927656ce881c.png)
+
 ### Config servers
 Start config servers (3 member replica set)
 ```
