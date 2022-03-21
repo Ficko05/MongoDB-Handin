@@ -11,5 +11,5 @@ const testSchema = new mongoose.Schema({
     },
 })
 
-const Test = mongoose.model("test", testSchema)
+const Test = mongoose.model("twee", testSchema)
 module.exports = Test
