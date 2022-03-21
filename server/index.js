@@ -6,7 +6,8 @@ const testmoduel = require("./models/Test")
 
 app.use(express.json())
 
-mongoose.connect('mongodb+srv://new-user:admin123@cluster0.g7szi.mongodb.net/ass-3?retryWrites=true&w=majority',{
+//mongoose.connect('mongodb+srv://new-user:admin123@cluster0.g7szi.mongodb.net/ass-3?retryWrites=true&w=majority',{
+mongoose.connect('mongodb://localhost:27017/m',{
     useNewUrlParser: true,
 }) 
 
