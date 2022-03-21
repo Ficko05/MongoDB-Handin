@@ -11,5 +11,5 @@ const testSchema = new mongoose.Schema({
     },
 })
 
-const Test = mongoose.model("twee", testSchema)
+const Test = mongoose.model("twitter", testSchema)
 module.exports = Test
