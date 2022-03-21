@@ -9,7 +9,7 @@ docker-compose -f config-server/docker-compose.yaml up -d
 ```
 Initiate replica set
 ```
-mongo mongodb://192.168.1.81:40001
+mongo mongodb://127.0.0.1:40001
 ```
 ```
 rs.initiate(
