@@ -1,15 +1,15 @@
 const mongoose = require('mongoose');
 
 const testSchema = new mongoose.Schema({
-    fname: {
+    first_name: {
         type: String,
         required: true,
     },
-    lname: {
+    last_name: {
         type: String,
         required: true,
     },
 })
 
-const Test = mongoose.model("twitter", testSchema)
-module.exports = Test
+const twitterSchema = mongoose.model("twitter", testSchema)
+module.exports = twitterSchema
