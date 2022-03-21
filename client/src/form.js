@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import {app} from '../../server/index';
 
 export default class NameForm extends Component {
     constructor(props) {
@@ -19,6 +20,7 @@ export default class NameForm extends Component {
     }
 
     // IMPLEMENT FETCH FUNCTION HERE TO MAKE RELEVANT MONGODB QURIES
+    app
   
     render() {
       return (
